@@ -1,0 +1,31 @@
+<header class="header">
+  <a href="" class="header__logo logo">
+    <img src="assets/images/logo.png" alt="Koreeva Photo" class="logo__pic" />
+  </a>
+  <nav [ngClass]="setClassMobile()">
+    <ul class="header__nav nav" [ngClass]="setClassMobile()" [@menuOpen]="menuState">
+      <li class="nav__item" [ngClass]="setClassMobile()" (click)="closeMenu()">
+        <a routerLink="/" class="header__link">Портфолио</a>
+      </li>
+      <li class="nav__item" [ngClass]="setClassMobile()">&bull;</li>
+      <li class="nav__item" [ngClass]="setClassMobile()" (click)="closeMenu()">
+        <a routerLink="/price" class="header__link">Прайс</a>
+      </li>
+      <li class="nav__item" [ngClass]="setClassMobile()">&bull;</li>
+      <li class="nav__item" [ngClass]="setClassMobile()" (click)="closeMenu()">
+        <a routerLink="/contact" class="header__link">Контакты</a>
+      </li>
+      <li class="nav__item" [ngClass]="setClassMobile()">&bull;</li>
+      <li class="nav__item" [ngClass]="setClassMobile()" (click)="closeMenu()">
+        <a routerLink="/feedback" class="header__link">Отзывы</a>
+      </li>
+    </ul>
+    <div class="header__menu" (click)="openMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 18 17.5">
+        <line class="hamburger-svg-style" y1="1" x2="18" y2="1"></line>
+        <line class="hamburger-svg-style" y1="7" x2="18" y2="7"></line>
+        <line class="hamburger-svg-style" y1="13" x2="18" y2="13"></line>
+      </svg>
+    </div>
+  </nav>
+</header>

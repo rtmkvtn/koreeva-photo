@@ -1,0 +1,28 @@
+.albums__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, calc((100% - 96px) / 5));
+  grid-gap: 24px;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .albums__container {
+    grid-template-columns: repeat(auto-fill, calc((100% - 48px) / 4));
+    grid-gap: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .albums__container {
+    grid-template-columns: repeat(auto-fill, calc((100% - 32px) / 3));
+    grid-gap: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .albums__container {
+    grid-template-columns: repeat(auto-fill, calc((100% - 16px) / 2));
+    grid-gap: 16px;
+  }
+}

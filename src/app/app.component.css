@@ -1,0 +1,45 @@
+@import url('../assets/vendor/fonts.css');
+
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1232px;
+  width: calc(100% - 208px);
+  min-height: 100vh;
+}
+
+.root__section {
+  width: 100%;
+}
+
+.body {
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+@media (max-width: 1024px) {
+  .root {
+    width: calc(100% - 128px);
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .root {
+    width: calc(100% - 80px);
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 640px) {
+  .root {
+    width: calc(100% - 32px);
+  }
+}
