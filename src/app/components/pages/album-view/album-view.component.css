@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   @supports (column-count: 1) or (-moz-column-count: 1) or (-webkit-column-count: 1) {
     .album {
       -webkit-column-count: 1;

@@ -8,6 +8,7 @@ export class AlbumService {
     {
       descr: 'Анастасия',
       pics: [
+        'assets/images/portfolio/1-anastasia/cover.jpg',
         'assets/images/portfolio/1-anastasia/1.jpg',
         'assets/images/portfolio/1-anastasia/2.jpg',
         'assets/images/portfolio/1-anastasia/3.jpg',
@@ -18,12 +19,12 @@ export class AlbumService {
         'assets/images/portfolio/1-anastasia/8.jpg',
         'assets/images/portfolio/1-anastasia/9.jpg',
         'assets/images/portfolio/1-anastasia/10.jpg',
-        'assets/images/portfolio/1-anastasia/11.jpg',
       ],
     },
     {
       descr: 'Дарья',
       pics: [
+        'assets/images/portfolio/2-daria/cover.jpg',
         'assets/images/portfolio/2-daria/1.jpg',
         'assets/images/portfolio/2-daria/2.jpg',
         'assets/images/portfolio/2-daria/3.jpg',
@@ -38,12 +39,12 @@ export class AlbumService {
         'assets/images/portfolio/2-daria/12.jpg',
         'assets/images/portfolio/2-daria/13.jpg',
         'assets/images/portfolio/2-daria/14.jpg',
-        'assets/images/portfolio/2-daria/15.jpg',
       ],
     },
     {
       descr: 'Марина',
       pics: [
+        'assets/images/portfolio/3-marina/cover.jpg',
         'assets/images/portfolio/3-marina/1.jpg',
         'assets/images/portfolio/3-marina/2.jpg',
         'assets/images/portfolio/3-marina/3.jpg',
@@ -59,7 +60,6 @@ export class AlbumService {
         'assets/images/portfolio/3-marina/13.jpg',
         'assets/images/portfolio/3-marina/14.jpg',
         'assets/images/portfolio/3-marina/15.jpg',
-        'assets/images/portfolio/3-marina/16.jpg',
       ],
     },
     {
@@ -80,6 +80,7 @@ export class AlbumService {
     {
       descr: 'Татьяна',
       pics: [
+        'assets/images/portfolio/5-tatiana/cover.jpg',
         'assets/images/portfolio/5-tatiana/1.jpg',
         'assets/images/portfolio/5-tatiana/2.jpg',
         'assets/images/portfolio/5-tatiana/3.jpg',
@@ -90,12 +91,12 @@ export class AlbumService {
         'assets/images/portfolio/5-tatiana/8.jpg',
         'assets/images/portfolio/5-tatiana/9.jpg',
         'assets/images/portfolio/5-tatiana/10.jpg',
-        'assets/images/portfolio/5-tatiana/11.jpg',
       ],
     },
     {
       descr: 'Анита',
       pics: [
+        'assets/images/portfolio/6-anita/cover.jpg',
         'assets/images/portfolio/6-anita/1.jpg',
         'assets/images/portfolio/6-anita/2.jpg',
         'assets/images/portfolio/6-anita/3.jpg',
@@ -105,7 +106,37 @@ export class AlbumService {
         'assets/images/portfolio/6-anita/7.jpg',
         'assets/images/portfolio/6-anita/8.jpg',
         'assets/images/portfolio/6-anita/9.jpg',
-        'assets/images/portfolio/6-anita/10.jpg',
+      ],
+    },
+    {
+      descr: 'Мария',
+      pics: [
+        'assets/images/portfolio/7-mariia/cover.jpg',
+        'assets/images/portfolio/7-mariia/1.jpg',
+        'assets/images/portfolio/7-mariia/2.jpg',
+        'assets/images/portfolio/7-mariia/3.jpg',
+        'assets/images/portfolio/7-mariia/4.jpg',
+        'assets/images/portfolio/7-mariia/5.jpg',
+        'assets/images/portfolio/7-mariia/6.jpg',
+        'assets/images/portfolio/7-mariia/7.jpg',
+        'assets/images/portfolio/7-mariia/8.jpg',
+        'assets/images/portfolio/7-mariia/9.jpg',
+      ],
+    },
+    {
+      descr: 'Алина',
+      pics: [
+        'assets/images/portfolio/8-alina/cover.jpg',
+        'assets/images/portfolio/8-alina/1.jpg',
+        'assets/images/portfolio/8-alina/2.jpg',
+        'assets/images/portfolio/8-alina/3.jpg',
+        'assets/images/portfolio/8-alina/4.jpg',
+        'assets/images/portfolio/8-alina/5.jpg',
+        'assets/images/portfolio/8-alina/6.jpg',
+        'assets/images/portfolio/8-alina/7.jpg',
+        'assets/images/portfolio/8-alina/8.jpg',
+        'assets/images/portfolio/8-alina/9.jpg',
+        'assets/images/portfolio/8-alina/10.jpg',
       ],
     },
   ];
