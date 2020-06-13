@@ -1,3 +1,7 @@
 img {
   width: 100%;
 }
+
+.photo__wrapper {
+  background-color: #ccc;
+}
