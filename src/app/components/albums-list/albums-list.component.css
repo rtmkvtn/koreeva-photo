@@ -1,7 +1,8 @@
 .albums__container {
-  width: 100%;
+  width: 80%;
+  margin: 64px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, calc((100% - 96px) / 5));
+  grid-template-columns: repeat(auto-fill, calc((100% - 72px) / 4));
   grid-gap: 24px;
   align-items: flex-start;
 }

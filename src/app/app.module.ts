@@ -16,6 +16,7 @@ import { AlbumComponent } from './components/album/album.component';
 import { PictureComponent } from './components/picture/picture.component';
 import { AlbumViewComponent } from './components/pages/album-view/album-view.component';
 import { AlbumPhotosComponent } from './components/album-photos/album-photos.component';
+import { OtzivComponent } from './components/otziv/otziv.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { AlbumPhotosComponent } from './components/album-photos/album-photos.com
     PictureComponent,
     AlbumViewComponent,
     AlbumPhotosComponent,
+    OtzivComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, BrowserAnimationsModule],
   providers: [],
