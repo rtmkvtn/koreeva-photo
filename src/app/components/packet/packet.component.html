@@ -1,0 +1,13 @@
+<div class="packet">
+  <figure class="packet__figure">
+    <img [src]="packet.img" alt="nastya" class="packet__picture" />
+    <figcaption class="figure__caption">
+      <h3 class="packet__title">{{ packet.name }}</h3>
+      <h4 class="packet__price mt-24">{{ packet.price }} &#8381;</h4>
+      <ul class="packet__list mt-24">
+        <li class="packet__item packet__text" *ngFor="let feature of packet.includes">{{ feature }}</li>
+      </ul>
+      <button class="packet__button">Связаться</button>
+    </figcaption>
+  </figure>
+</div>

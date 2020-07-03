@@ -6,7 +6,7 @@ import { FeedbackComponent } from './components/pages/feedback/feedback.componen
 import { PriceComponent } from './components/pages/price/price.component';
 import { ContactsComponent } from './components/pages/contacts/contacts.component';
 import { AlbumViewComponent } from './components/pages/album-view/album-view.component';
-import { AlbumPhotosComponent } from './components/album-photos/album-photos.component';
+import { ContentShootComponent } from './components/pages/content-shoot/content-shoot.component';
 
 const routes: Routes = [
   {
@@ -20,6 +20,7 @@ const routes: Routes = [
     path: 'album-view/:albumType',
     component: AlbumViewComponent,
   },
+  { path: 'content-shoot', component: ContentShootComponent },
 ];
 
 @NgModule({

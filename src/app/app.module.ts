@@ -17,6 +17,8 @@ import { PictureComponent } from './components/picture/picture.component';
 import { AlbumViewComponent } from './components/pages/album-view/album-view.component';
 import { AlbumPhotosComponent } from './components/album-photos/album-photos.component';
 import { OtzivComponent } from './components/otziv/otziv.component';
+import { PacketComponent } from './components/packet/packet.component';
+import { ContentShootComponent } from './components/pages/content-shoot/content-shoot.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { OtzivComponent } from './components/otziv/otziv.component';
     AlbumViewComponent,
     AlbumPhotosComponent,
     OtzivComponent,
+    PacketComponent,
+    ContentShootComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, BrowserAnimationsModule],
   providers: [],

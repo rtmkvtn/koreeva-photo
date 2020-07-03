@@ -1,0 +1,135 @@
+.packet__figure {
+  max-width: 80%;
+  margin: 64px auto;
+  padding: 0 24px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid black;
+  font-family: 'Gilroy-Light', Arial, Helvetica, sans-serif;
+}
+
+.packet__picture {
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 40%;
+  max-width: 640px;
+  object-fit: cover;
+}
+
+.figure__caption {
+  margin-left: 32px;
+  width: 100%;
+}
+
+.packet__title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.packet__text {
+  margin: 0;
+  margin-top: 24px;
+
+  font-family: 'Gilroy-Light', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.packet__list {
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+}
+
+.packet__item {
+  margin-top: 8px;
+}
+
+.packet__button {
+  display: block;
+  height: 40px;
+  padding: 0 24px;
+  margin: 48px auto 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  letter-spacing: 1.5px;
+  font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  opacity: 0.8;
+  transition: all linear 0.3s;
+  outline: none;
+}
+
+.packet__button:hover {
+  opacity: 1;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25);
+}
+
+.packet__button:active {
+  transition: all ease-in 0.1s;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+@media (max-width: 1024px) {
+  .packet__text {
+    font-size: 12px;
+  }
+  .figure__caption {
+    margin-left: 24px;
+  }
+  .packet__figure {
+    max-width: 80%;
+    padding: 0 0 32px;
+    margin: 32px auto;
+  }
+  .packet__button {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .packet__figure {
+    padding: 0 0 24px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .packet__text {
+    font-size: 14px;
+    list-style: none;
+  }
+  .packet__list {
+    margin: 0;
+  }
+  .figure__caption {
+    margin-top: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .packet__figure {
+    padding: 0 0 24px;
+    flex-direction: column;
+  }
+  .packet__picture {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+    object-fit: scale-down;
+  }
+  .packet__button {
+    margin-top: 24px;
+  }
+  .packet__price {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+}
